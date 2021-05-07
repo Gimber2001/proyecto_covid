@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Persona App</title>
+    <!-- Bootswatch Theme -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="App.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">APLICACION PARA AGREGAR UNA PERSONA</a>
+    </nav>
+
+
+    <div class="container">
+        <!-- APPLICATION -->
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                     <b> <h4><mark> Añadir o Agregar a la Persona </mark></h4> 
+                    </div></b> 
+                        <form id="product-form" class="card-body">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Person DNI" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="positivo"  placeholder="Prueba Rapida" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Person Codigo" class="form-control">
+                        </div>
+                        
+                        <input type="submit" value="Guardar" class="btn btn-primary btn-block">
+                    </form>
+            </div>
+
+            <div id="product-list" class="col-md-8"></div>
+        </div>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+
+</html>
